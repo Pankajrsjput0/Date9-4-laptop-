@@ -3,13 +3,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.FIREBASE_APP_ID,
-  measurementId: process.env.FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyDch3-hImhB2LZieHKxuQmZCJPVpSDwAxY",
+  authDomain: "kali-novels.firebaseapp.com",
+  projectId: "kali-novels",
+  storageBucket: "kali-novels.firebasestorage.app",
+  messagingSenderId: "490331063507",
+  appId: "1:490331063507:web:770d5181b54f00349a4026",
+  measurementId: "G-XXZK3GD9KR"
 };
 
 const app = initializeApp(firebaseConfig);
